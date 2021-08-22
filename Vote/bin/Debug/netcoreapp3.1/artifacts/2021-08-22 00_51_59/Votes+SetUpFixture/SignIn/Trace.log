@@ -1,0 +1,18 @@
+2021-08-22 00:51:59.4116  INFO Starting test: Vote.Votes+SetUpFixture.SignIn
+2021-08-22 00:51:59.5803 TRACE > Set up AtataContext
+2021-08-22 00:51:59.6327 TRACE - Use: "Atata.json" config
+2021-08-22 00:51:59.6333 TRACE - Use: "Atata.local.json" config
+2021-08-22 00:51:59.6338 TRACE - Set: BaseUrl=https://atata.io/
+2021-08-22 00:51:59.6353 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 00:51:59.6359 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 00:51:59.6364 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 00:51:59.6370 TRACE - Set: Culture=en-US
+2021-08-22 00:51:59.6376 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 00_51_59\Votes+SetUpFixture\SignIn
+2021-08-22 00:51:59.6464 TRACE - Set: DriverService=ChromeDriverService on port 52708
+2021-08-22 00:52:00.3977 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 00:52:00.4000 TRACE < Set up AtataContext (0.819s)
+2021-08-22 00:52:00.4238  INFO Go to "Vote" page
+2021-08-22 00:52:00.4438  INFO Go to URL "https://atata.io/"
+2021-08-22 00:52:01.3231  INFO > Click "Vote Btn" control
+2021-08-22 00:52:01.3266 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" control
+2021-08-22 00:52:01.3417 TRACE - - > Find visible elements by CSS selector "#votebtn" in ChromeDriver

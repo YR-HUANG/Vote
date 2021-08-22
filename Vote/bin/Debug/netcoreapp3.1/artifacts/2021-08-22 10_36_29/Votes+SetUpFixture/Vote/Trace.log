@@ -1,0 +1,54 @@
+2021-08-22 10:36:29.6658  INFO Starting test: Vote.Votes+SetUpFixture.Vote
+2021-08-22 10:36:29.8154 TRACE > Set up AtataContext
+2021-08-22 10:36:29.8682 TRACE - Use: "Atata.json" config
+2021-08-22 10:36:29.8689 TRACE - Use: "Atata.local.json" config
+2021-08-22 10:36:29.8694 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 10:36:29.8705 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 10:36:29.8712 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 10:36:29.8717 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 10:36:29.8723 TRACE - Set: Culture=en-US
+2021-08-22 10:36:29.8729 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 10_36_29\Votes+SetUpFixture\Vote
+2021-08-22 10:36:29.8785 TRACE - Set: DriverService=ChromeDriverService on port 54886
+2021-08-22 10:36:30.4967 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 10:36:30.4987 TRACE < Set up AtataContext (0.682s)
+2021-08-22 10:36:30.5207  INFO Go to "Vote" page
+2021-08-22 10:36:30.5390  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 10:36:33.4917  INFO > Click "Vote Btn" link
+2021-08-22 10:36:33.4952 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link
+2021-08-22 10:36:33.5131 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' votebtn ')]/descendant-or-self::a" in ChromeDriver
+2021-08-22 10:36:33.5424 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' votebtn ')]/descendant-or-self::a" in ChromeDriver (0.028s) >> Element { Id=dd94a424-b4b6-46b7-98be-b10ecaebc81b }
+2021-08-22 10:36:33.5435 TRACE - - > Click element { Id=dd94a424-b4b6-46b7-98be-b10ecaebc81b }
+2021-08-22 10:36:34.2028 TRACE - - < Click element { Id=dd94a424-b4b6-46b7-98be-b10ecaebc81b } (0.659s)
+2021-08-22 10:36:34.2053 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link (0.710s)
+2021-08-22 10:36:34.2064  INFO < Click "Vote Btn" link (0.714s)
+2021-08-22 10:36:36.2469 ERROR System.NullReferenceException : Object reference not set to an instance of an object.
+   at Vote.Votes.SetUpFixture.UseModHeader() in C:\Workspace\Vote\Vote\Votes.cs:line 54
+   at Vote.Votes.SetUpFixture.Vote() in C:\Workspace\Vote\Vote\Votes.cs:line 48
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+2021-08-22 10:36:36.2495  INFO Take screenshot #01 - Failed
+2021-08-22 10:36:36.2709 ERROR Screenshot failed OpenQA.Selenium.UnhandledAlertException: unexpected alert open: {Alert text : 每人每天最多可投 5 票!}
+  (Session info: chrome=92.0.4515.159)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetScreenshot()
+   at Atata.LogManager.Screenshot(String title)
+2021-08-22 10:36:36.2761 ERROR System.NullReferenceException : Object reference not set to an instance of an object.
+   at Vote.Votes.SetUpFixture.UseModHeader() in C:\Workspace\Vote\Vote\Votes.cs:line 54
+   at Vote.Votes.SetUpFixture.Vote() in C:\Workspace\Vote\Vote\Votes.cs:line 48
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+2021-08-22 10:36:36.2769  INFO Take screenshot #02 - Failed
+2021-08-22 10:36:36.7335  INFO Screenshot saved to file "C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 10_36_29\Votes+SetUpFixture\Vote\02 - Vote page - Failed.png"
+2021-08-22 10:36:36.7349  INFO > Clean up AtataContext
+2021-08-22 10:36:36.8703  INFO < Clean up AtataContext (0.135s)
+2021-08-22 10:36:36.8712  INFO Finished test (7.265s)
+2021-08-22 10:36:36.8718  INFO Pure test execution time: 5.739s

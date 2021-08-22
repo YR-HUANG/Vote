@@ -1,0 +1,58 @@
+2021-08-22 20:31:33.2144  INFO Starting test: Vote.Votes+SetUpFixture.Vote
+2021-08-22 20:31:33.3868 TRACE > Set up AtataContext
+2021-08-22 20:31:33.4434 TRACE - Use: "Atata.json" config
+2021-08-22 20:31:33.4441 TRACE - Use: "Atata.local.json" config
+2021-08-22 20:31:33.4446 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 20:31:33.4459 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 20:31:33.4465 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 20:31:33.4470 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 20:31:33.4477 TRACE - Set: Culture=en-US
+2021-08-22 20:31:33.4483 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_31_33\Votes+SetUpFixture\Vote
+2021-08-22 20:31:33.4553 TRACE - Set: DriverService=ChromeDriverService on port 59017
+2021-08-22 20:31:34.1506 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 20:31:34.1529 TRACE < Set up AtataContext (0.765s)
+2021-08-22 20:31:34.1782  INFO Go to "Vote" page
+2021-08-22 20:31:34.1987  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 20:31:35.1550  INFO Go to URL "https://webdriver.bewisse.com/add?X-Forwarded-For=210.212.145.105"
+2021-08-22 20:31:35.4927 ERROR OpenQA.Selenium.WebDriverException : unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=92.0.4515.159)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(Uri url)
+   at Atata.AtataNavigator.Navigate(Uri uri)
+   at Atata.AtataNavigator.ToUrl(String url)
+   at Atata.Go.ToUrl(String url)
+   at Vote.Votes.SetUpFixture.UseModHeader() in C:\Workspace\Vote\Vote\Votes.cs:line 59
+   at Vote.Votes.SetUpFixture.Vote() in C:\Workspace\Vote\Vote\Votes.cs:line 51
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+2021-08-22 20:31:35.4954  INFO Take screenshot #01 - Failed
+2021-08-22 20:31:35.6014  INFO Screenshot saved to file "C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_31_33\Votes+SetUpFixture\Vote\01 - Vote page - Failed.png"
+2021-08-22 20:31:35.6034 ERROR OpenQA.Selenium.WebDriverException : unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=92.0.4515.159)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(Uri url)
+   at Atata.AtataNavigator.Navigate(Uri uri)
+   at Atata.AtataNavigator.ToUrl(String url)
+   at Atata.Go.ToUrl(String url)
+   at Vote.Votes.SetUpFixture.UseModHeader() in C:\Workspace\Vote\Vote\Votes.cs:line 59
+   at Vote.Votes.SetUpFixture.Vote() in C:\Workspace\Vote\Vote\Votes.cs:line 51
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+2021-08-22 20:31:35.6040  INFO Take screenshot #02 - Failed
+2021-08-22 20:31:35.6918  INFO Screenshot saved to file "C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_31_33\Votes+SetUpFixture\Vote\02 - Vote page - Failed.png"
+2021-08-22 20:31:35.6928  INFO > Clean up AtataContext
+2021-08-22 20:31:35.8083  INFO < Clean up AtataContext (0.115s)
+2021-08-22 20:31:35.8098  INFO Finished test (2.677s)
+2021-08-22 20:31:35.8107  INFO Pure test execution time: 1.329s

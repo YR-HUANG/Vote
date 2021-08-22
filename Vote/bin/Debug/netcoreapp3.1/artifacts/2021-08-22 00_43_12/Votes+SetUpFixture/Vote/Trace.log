@@ -1,0 +1,74 @@
+2021-08-22 00:43:43.8819  INFO Starting test: Vote.Votes+SetUpFixture.Vote
+2021-08-22 00:43:43.8849 TRACE > Set up AtataContext
+2021-08-22 00:43:43.8858 TRACE - Use: "Atata.json" config
+2021-08-22 00:43:43.8861 TRACE - Use: "Atata.local.json" config
+2021-08-22 00:43:43.8867 TRACE - Set: BaseUrl=https://atata.io/
+2021-08-22 00:43:43.8873 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 00:43:43.8878 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 00:43:43.8881 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 00:43:43.8885 TRACE - Set: Culture=en-US
+2021-08-22 00:43:43.8890 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 00_43_12\Votes+SetUpFixture\Vote
+2021-08-22 00:43:43.8919 TRACE - Set: DriverService=ChromeDriverService on port 50482
+2021-08-22 00:43:45.0072 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 00:43:45.0086 TRACE < Set up AtataContext (1.123s)
+2021-08-22 00:43:45.0101  INFO Go to "Vote" page
+2021-08-22 00:43:45.0121  INFO Go to URL "https://atata.io/"
+2021-08-22 00:43:45.8586  INFO > Click "Vote Btn" control
+2021-08-22 00:43:45.8601 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" control
+2021-08-22 00:43:45.8611 TRACE - - > Find visible elements by CSS selector "#votebtn" in ChromeDriver
+2021-08-22 00:44:00.0701 TRACE - - < Find visible elements by CSS selector "#votebtn" in ChromeDriver (14.208s) >> OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+2021-08-22 00:44:00.0712 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" control (14.211s) >> OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+2021-08-22 00:44:00.0722  INFO < Click "Vote Btn" control (14.213s) >> OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+2021-08-22 00:44:00.0760 ERROR OpenQA.Selenium.WebDriverException : chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementsByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<FindAll>b__1(T x)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.FindAll(By by, SearchOptions options)
+   at Atata.ExtendedSearchContext`1.FindElements(By by)
+   at Atata.ISearchContextExtensions.GetAll[T](T searchContext, By by)
+   at Atata.ISearchContextLoggingExtensions.<>c__DisplayClass1_0.<GetAllWithLogging>b__0()
+   at Atata.LogManager.ExecuteSection[TResult](LogSection section, Func`1 function)
+   at Atata.ISearchContextLoggingExtensions.GetAllWithLogging(ISearchContext searchContext, By by)
+   at Atata.StrategyScopeLocatorExecutor.ResolveResult(ComponentScopeLocateResult result, ISearchContext scopeSource, ComponentScopeLocateOptions scopeLocateOptions, SearchOptions searchOptions)
+   at Atata.StrategyScopeLocatorExecutor.Execute(StrategyScopeLocatorExecutionData executionData)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.get_Scope()
+   at Atata.ClickUsingClickMethodAttribute.Execute[TOwner](IUIComponent`1 component)
+   at Atata.Control`1.<>c__DisplayClass12_0.<OnClick>b__0()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.Control`1.OnClick()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.Control`1.Click()
+   at Vote.Votes.SetUpFixture.SignIn() in C:\Workspace\Vote\Vote\Votes.cs:line 38
+   at Vote.Votes.SetUpFixture.Vote() in C:\Workspace\Vote\Vote\Votes.cs:line 45
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+2021-08-22 00:44:00.0772  INFO Take screenshot #01 - Failed
+2021-08-22 00:44:12.2218 ERROR Screenshot failed OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetScreenshot()
+   at Atata.LogManager.Screenshot(String title)
+2021-08-22 00:44:12.2235  INFO > Clean up AtataContext
+2021-08-22 00:44:12.2639  INFO < Clean up AtataContext (0.040s)
+2021-08-22 00:44:12.2646  INFO Finished test (28.382s)
+2021-08-22 00:44:12.2650  INFO Pure test execution time: 15.066s

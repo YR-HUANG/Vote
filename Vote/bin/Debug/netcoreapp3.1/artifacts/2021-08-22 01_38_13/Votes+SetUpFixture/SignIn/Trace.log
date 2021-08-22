@@ -1,0 +1,27 @@
+2021-08-22 01:38:13.4930  INFO Starting test: Vote.Votes+SetUpFixture.SignIn
+2021-08-22 01:38:13.6392 TRACE > Set up AtataContext
+2021-08-22 01:38:13.6906 TRACE - Use: "Atata.json" config
+2021-08-22 01:38:13.6915 TRACE - Use: "Atata.local.json" config
+2021-08-22 01:38:13.6922 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 01:38:13.6940 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 01:38:13.6950 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 01:38:13.6961 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 01:38:13.6968 TRACE - Set: Culture=en-US
+2021-08-22 01:38:13.6975 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 01_38_13\Votes+SetUpFixture\SignIn
+2021-08-22 01:38:13.7045 TRACE - Set: DriverService=ChromeDriverService on port 50907
+2021-08-22 01:38:14.3258 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 01:38:14.3278 TRACE < Set up AtataContext (0.688s)
+2021-08-22 01:38:14.3520  INFO Go to "Vote" page
+2021-08-22 01:38:14.3725  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 01:38:17.2425  INFO > Click "Vote Btn" link
+2021-08-22 01:38:17.2457 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link
+2021-08-22 01:38:17.2624 TRACE - - > Find visible element by XPath ".//a[@href='javascript:void(0);']" in ChromeDriver
+2021-08-22 01:38:17.2991 TRACE - - < Find visible element by XPath ".//a[@href='javascript:void(0);']" in ChromeDriver (0.035s) >> Element { Id=b142c21e-d08e-457b-8cbe-c42ad6688f82 }
+2021-08-22 01:38:17.3003 TRACE - - > Click element { Id=b142c21e-d08e-457b-8cbe-c42ad6688f82 }
+2021-08-22 01:38:24.0454 TRACE - - < Click element { Id=b142c21e-d08e-457b-8cbe-c42ad6688f82 } (6.745s)
+2021-08-22 01:38:24.0484 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link (6.802s)
+2021-08-22 01:38:24.0502  INFO < Click "Vote Btn" link (6.807s)
+2021-08-22 01:38:24.0650  INFO > Clean up AtataContext
+2021-08-22 01:38:24.1752  INFO < Clean up AtataContext (0.110s)
+2021-08-22 01:38:24.1765  INFO Finished test (10.745s)
+2021-08-22 01:38:24.1771  INFO Pure test execution time: 9.723s

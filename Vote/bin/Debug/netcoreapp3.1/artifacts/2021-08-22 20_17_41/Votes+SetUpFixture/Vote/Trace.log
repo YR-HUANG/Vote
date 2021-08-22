@@ -1,0 +1,15 @@
+2021-08-22 20:17:41.0855  INFO Starting test: Vote.Votes+SetUpFixture.Vote
+2021-08-22 20:17:41.3074 TRACE > Set up AtataContext
+2021-08-22 20:17:41.3624 TRACE - Use: "Atata.json" config
+2021-08-22 20:17:41.3630 TRACE - Use: "Atata.local.json" config
+2021-08-22 20:17:41.3634 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 20:17:41.3652 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 20:17:41.3658 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 20:17:41.3663 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 20:17:41.3668 TRACE - Set: Culture=en-US
+2021-08-22 20:17:41.3674 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_17_41\Votes+SetUpFixture\Vote
+2021-08-22 20:17:41.3727 TRACE - Set: DriverService=ChromeDriverService on port 61541
+2021-08-22 20:17:42.4796 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 20:17:42.4817 TRACE < Set up AtataContext (1.173s)
+2021-08-22 20:17:42.5061  INFO Go to "Vote" page
+2021-08-22 20:17:42.5261  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"

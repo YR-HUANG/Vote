@@ -1,0 +1,23 @@
+2021-08-22 20:19:41.3310  INFO Starting test: Vote.Votes+SetUpFixture.Vote
+2021-08-22 20:19:41.4984 TRACE > Set up AtataContext
+2021-08-22 20:19:41.5518 TRACE - Use: "Atata.json" config
+2021-08-22 20:19:41.5527 TRACE - Use: "Atata.local.json" config
+2021-08-22 20:19:41.5533 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 20:19:41.5548 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 20:19:41.5555 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 20:19:41.5561 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 20:19:41.5567 TRACE - Set: Culture=en-US
+2021-08-22 20:19:41.5574 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_19_41\Votes+SetUpFixture\Vote
+2021-08-22 20:19:41.5642 TRACE - Set: DriverService=ChromeDriverService on port 64948
+2021-08-22 20:19:42.2219 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 20:19:42.2243 TRACE < Set up AtataContext (0.725s)
+2021-08-22 20:19:42.2498  INFO Go to "Vote" page
+2021-08-22 20:19:42.2699  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 20:19:48.7848  INFO Go to URL "https://bewisse.com/add?X-Forwarded-For=210.212.145.105"
+2021-08-22 20:19:56.3171  INFO Go to "Vote" page
+2021-08-22 20:19:56.3194  INFO > Click "Vote Btn" link
+2021-08-22 20:19:56.3217 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link
+2021-08-22 20:19:56.3426 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' votebtn ')]/descendant-or-self::a" in ChromeDriver
+2021-08-22 20:20:01.3622 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' votebtn ')]/descendant-or-self::a" in ChromeDriver (5.019s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element...
+2021-08-22 20:20:01.3635 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link (5.041s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element...
+2021-08-22 20:20:01.3845  INFO < Click "Vote Btn" link (5.065s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element...

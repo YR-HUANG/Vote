@@ -1,0 +1,81 @@
+2021-08-22 01:35:19.7817  INFO Starting test: Vote.Votes+SetUpFixture.SignIn
+2021-08-22 01:35:19.9280 TRACE > Set up AtataContext
+2021-08-22 01:35:19.9837 TRACE - Use: "Atata.json" config
+2021-08-22 01:35:19.9847 TRACE - Use: "Atata.local.json" config
+2021-08-22 01:35:19.9852 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 01:35:19.9865 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 01:35:19.9871 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 01:35:19.9878 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 01:35:19.9887 TRACE - Set: Culture=en-US
+2021-08-22 01:35:19.9896 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 01_35_19\Votes+SetUpFixture\SignIn
+2021-08-22 01:35:19.9962 TRACE - Set: DriverService=ChromeDriverService on port 53041
+2021-08-22 01:35:20.6067 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 01:35:20.6090 TRACE < Set up AtataContext (0.680s)
+2021-08-22 01:35:20.6305  INFO Go to "Vote" page
+2021-08-22 01:35:20.6515  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 01:35:23.5908  INFO > Click "Vote Btn" link
+2021-08-22 01:35:23.5941 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link
+2021-08-22 01:35:23.6124 TRACE - - > Find visible element by XPath ".//a[normalize-space(.) = 'Vote Btn']" in ChromeDriver
+2021-08-22 01:35:28.6285 TRACE - - < Find visible element by XPath ".//a[normalize-space(.) = 'Vote Btn']" in ChromeDriver (5.015s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element...
+2021-08-22 01:35:28.6305 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link (5.036s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element...
+2021-08-22 01:35:28.6313  INFO < Click "Vote Btn" link (5.040s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element...
+2021-08-22 01:35:28.6579 ERROR OpenQA.Selenium.NoSuchElementException : Unable to locate visible element:
+- By: XPath ".//a[normalize-space(.) = 'Vote Btn']"
+- Search time: 5.012s
+- Search options: {Visibility=Visible, Timeout=5s, RetryInterval=0.5s, IsSafely=False}
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.ISearchContextExtensions.Get[T](T searchContext, By by)
+   at Atata.ISearchContextLoggingExtensions.<>c__DisplayClass0_0.<GetWithLogging>b__0()
+   at Atata.LogManager.ExecuteSection[TResult](LogSection section, Func`1 function)
+   at Atata.ISearchContextLoggingExtensions.GetWithLogging(ISearchContext searchContext, By by)
+   at Atata.XPathComponentScopeFindResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass3_0.<GetElement>b__0(XPathComponentScopeFindResult x)
+   at System.Linq.Enumerable.SelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.get_Scope()
+   at Atata.ClickUsingClickMethodAttribute.Execute[TOwner](IUIComponent`1 component)
+   at Atata.Control`1.<>c__DisplayClass12_0.<OnClick>b__0()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.Control`1.OnClick()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.Control`1.Click()
+   at Vote.Votes.SetUpFixture.SignIn() in C:\Workspace\Vote\Vote\Votes.cs:line 39
+2021-08-22 01:35:28.6604  INFO Take screenshot #01 - Failed
+2021-08-22 01:35:28.8732  INFO Screenshot saved to file "C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 01_35_19\Votes+SetUpFixture\SignIn\01 - Vote page - Failed.png"
+2021-08-22 01:35:28.8753 ERROR OpenQA.Selenium.NoSuchElementException : Unable to locate visible element:
+- By: XPath ".//a[normalize-space(.) = 'Vote Btn']"
+- Search time: 5.012s
+- Search options: {Visibility=Visible, Timeout=5s, RetryInterval=0.5s, IsSafely=False}
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.ISearchContextExtensions.Get[T](T searchContext, By by)
+   at Atata.ISearchContextLoggingExtensions.<>c__DisplayClass0_0.<GetWithLogging>b__0()
+   at Atata.LogManager.ExecuteSection[TResult](LogSection section, Func`1 function)
+   at Atata.ISearchContextLoggingExtensions.GetWithLogging(ISearchContext searchContext, By by)
+   at Atata.XPathComponentScopeFindResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass3_0.<GetElement>b__0(XPathComponentScopeFindResult x)
+   at System.Linq.Enumerable.SelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.get_Scope()
+   at Atata.ClickUsingClickMethodAttribute.Execute[TOwner](IUIComponent`1 component)
+   at Atata.Control`1.<>c__DisplayClass12_0.<OnClick>b__0()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.Control`1.OnClick()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.Control`1.Click()
+   at Vote.Votes.SetUpFixture.SignIn() in C:\Workspace\Vote\Vote\Votes.cs:line 39
+2021-08-22 01:35:28.8760  INFO Take screenshot #02 - Failed
+2021-08-22 01:35:29.0914  INFO Screenshot saved to file "C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 01_35_19\Votes+SetUpFixture\SignIn\02 - Vote page - Failed.png"
+2021-08-22 01:35:29.0939  INFO > Clean up AtataContext
+2021-08-22 01:35:29.2340  INFO < Clean up AtataContext (0.140s)
+2021-08-22 01:35:29.2352  INFO Finished test (9.510s)
+2021-08-22 01:35:29.2359  INFO Pure test execution time: 8.040s

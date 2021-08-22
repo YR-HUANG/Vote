@@ -1,0 +1,27 @@
+2021-08-22 10:34:44.0201  INFO Starting test: Vote.Votes+SetUpFixture.SignIn
+2021-08-22 10:34:44.1965 TRACE > Set up AtataContext
+2021-08-22 10:34:44.2501 TRACE - Use: "Atata.json" config
+2021-08-22 10:34:44.2508 TRACE - Use: "Atata.local.json" config
+2021-08-22 10:34:44.2513 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 10:34:44.2529 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 10:34:44.2534 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 10:34:44.2540 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 10:34:44.2545 TRACE - Set: Culture=en-US
+2021-08-22 10:34:44.2553 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 10_34_44\Votes+SetUpFixture\SignIn
+2021-08-22 10:34:44.2619 TRACE - Set: DriverService=ChromeDriverService on port 53127
+2021-08-22 10:34:45.0022 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 10:34:45.0042 TRACE < Set up AtataContext (0.807s)
+2021-08-22 10:34:45.0282  INFO Go to "Vote" page
+2021-08-22 10:34:45.0488  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 10:34:47.8921  INFO > Click "Vote Btn" link
+2021-08-22 10:34:47.8956 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link
+2021-08-22 10:34:47.9175 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' votebtn ')]/descendant-or-self::a" in ChromeDriver
+2021-08-22 10:34:47.9490 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' votebtn ')]/descendant-or-self::a" in ChromeDriver (0.030s) >> Element { Id=50a41e8b-93f2-425c-86a0-9e112d9c41f2 }
+2021-08-22 10:34:47.9503 TRACE - - > Click element { Id=50a41e8b-93f2-425c-86a0-9e112d9c41f2 }
+2021-08-22 10:34:48.4186 TRACE - - < Click element { Id=50a41e8b-93f2-425c-86a0-9e112d9c41f2 } (0.468s)
+2021-08-22 10:34:48.4210 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link (0.525s)
+2021-08-22 10:34:48.4231  INFO < Click "Vote Btn" link (0.530s)
+2021-08-22 10:34:48.4407  INFO > Clean up AtataContext
+2021-08-22 10:34:48.5844  INFO < Clean up AtataContext (0.143s)
+2021-08-22 10:34:48.5856  INFO Finished test (4.644s)
+2021-08-22 10:34:48.5870  INFO Pure test execution time: 3.420s

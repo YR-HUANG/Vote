@@ -1,0 +1,41 @@
+2021-08-22 20:41:20.1416  INFO Starting test: Vote.Votes.Vote
+2021-08-22 20:41:20.2905 TRACE > Set up AtataContext
+2021-08-22 20:41:20.3421 TRACE - Use: "Atata.json" config
+2021-08-22 20:41:20.3427 TRACE - Use: "Atata.local.json" config
+2021-08-22 20:41:20.3431 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 20:41:20.3441 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 20:41:20.3446 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 20:41:20.3454 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 20:41:20.3461 TRACE - Set: Culture=en-US
+2021-08-22 20:41:20.3467 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_41_20\Votes\Vote
+2021-08-22 20:41:20.3543 TRACE - Set: DriverService=ChromeDriverService on port 56853
+2021-08-22 20:41:20.9638 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 20:41:20.9660 TRACE < Set up AtataContext (0.675s)
+2021-08-22 20:41:20.9888  INFO Go to "Vote" page
+2021-08-22 20:41:21.0081  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 20:41:21.8896 ERROR System.NullReferenceException : Object reference not set to an instance of an object.
+   at Vote.Votes.UseModHeader() in C:\Workspace\Vote\Vote\Votes.cs:line 55
+   at Vote.Votes.Vote() in C:\Workspace\Vote\Vote\Votes.cs:line 48
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+2021-08-22 20:41:21.8922  INFO Take screenshot #01 - Failed
+2021-08-22 20:41:22.1099  INFO Screenshot saved to file "C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_41_20\Votes\Vote\01 - Vote page - Failed.png"
+2021-08-22 20:41:22.1123 ERROR System.NullReferenceException : Object reference not set to an instance of an object.
+   at Vote.Votes.UseModHeader() in C:\Workspace\Vote\Vote\Votes.cs:line 55
+   at Vote.Votes.Vote() in C:\Workspace\Vote\Vote\Votes.cs:line 48
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)
+2021-08-22 20:41:22.1129  INFO Take screenshot #02 - Failed
+2021-08-22 20:41:22.3302  INFO Screenshot saved to file "C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 20_41_20\Votes\Vote\02 - Vote page - Failed.png"
+2021-08-22 20:41:22.3329  INFO > Clean up AtataContext
+2021-08-22 20:41:22.4525  INFO < Clean up AtataContext (0.119s)
+2021-08-22 20:41:22.4541  INFO Finished test (2.375s)
+2021-08-22 20:41:22.4546  INFO Pure test execution time: 0.914s

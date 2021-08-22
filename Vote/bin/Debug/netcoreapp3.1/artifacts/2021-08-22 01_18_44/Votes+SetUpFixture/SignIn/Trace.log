@@ -1,0 +1,20 @@
+2021-08-22 01:18:44.5192  INFO Starting test: Vote.Votes+SetUpFixture.SignIn
+2021-08-22 01:18:44.7030 TRACE > Set up AtataContext
+2021-08-22 01:18:44.7567 TRACE - Use: "Atata.json" config
+2021-08-22 01:18:44.7575 TRACE - Use: "Atata.local.json" config
+2021-08-22 01:18:44.7581 TRACE - Set: BaseUrl=https://www.fusohero.com.tw/vote-content.php?id=67
+2021-08-22 01:18:44.7596 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-08-22 01:18:44.7602 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-08-22 01:18:44.7608 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-08-22 01:18:44.7614 TRACE - Set: Culture=en-US
+2021-08-22 01:18:44.7620 TRACE - Set: Artifacts=C:\Workspace\Vote\Vote\bin\Debug\netcoreapp3.1\artifacts\2021-08-22 01_18_44\Votes+SetUpFixture\SignIn
+2021-08-22 01:18:44.7697 TRACE - Set: DriverService=ChromeDriverService on port 57810
+2021-08-22 01:18:45.4581 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-08-22 01:18:45.4609 TRACE < Set up AtataContext (0.757s)
+2021-08-22 01:18:45.4869  INFO Go to "Vote" page
+2021-08-22 01:18:45.5082  INFO Go to URL "https://www.fusohero.com.tw/vote-content.php?id=67"
+2021-08-22 01:18:48.3959  INFO > Click "Vote Btn" link
+2021-08-22 01:18:48.4001 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link
+2021-08-22 01:18:48.4171 TRACE - - > Find visible elements by CSS selector "votebtn" in ChromeDriver
+2021-08-22 01:18:53.4370 TRACE - - < Find visible elements by CSS selector "votebtn" in ChromeDriver (5.019s) >> []
+2021-08-22 01:18:53.4415 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Vote Btn" link (5.041s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible "Vote Btn" link element...
